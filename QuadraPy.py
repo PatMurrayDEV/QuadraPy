@@ -9,9 +9,9 @@ print "#### QuadraPy ####"
 print "Following the format a + bx + cx^2,\nEnter the co-efficients (watch for negatives):"
 
 # Get the co-efficients
-a = input("a: ")
-b = input("b: ")
-c = input("c: ")
+a = input("  a: ")
+b = input("  b: ")
+c = input("  c: ")
 
 # DO THE MATHS!
 # To get the discriminate (b^2 - 4ac)
