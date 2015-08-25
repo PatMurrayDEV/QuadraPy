@@ -4,15 +4,15 @@ Implementation of the Quadratic formula in Python
 My first attempt at Python code.
 
 ## Todo
-- [X] Get user input
-- [X] Calculate the discriminate
-- [X] Check for number of solutions
+- [X] Get user input (25 Aug 2015)
+- [X] Calculate the discriminate (25 Aug 2015)
+- [X] Check for number of solutions (25 Aug 2015)
 - [ ] Calculate the possible solutions
 - [ ] Return result to user
 - [ ] Loop
 - [ ] Fail gracefully
   - [ ] Check for non-number input 
-  - [X] Check if no real solutions
+  - [X] Check if no real solutions (25 Aug 2015)
 
 ## License
 
