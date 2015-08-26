@@ -3,25 +3,41 @@
 # My first exploration into Python :/
 
 import math
+import os
+
+# Clear the terminal (because neatness is very important)
+os.system('cls' if os.name == 'nt' else 'clear')
 
 # Welcome the user (hi user!)
-print "#### QuadraPy ####"
-print "Following the format a + bx + cx^2,\nEnter the co-efficients (watch for negatives):"
+title = "#### QuadraPy ####"
+print ('\033[95m' + title.center(80, '#') + '\033[0m')
+print "\nThanks for using QuadraPy. QuadraPy is a simple Python based Quadratic equation solver. Pass it the three coefficients and it should spit out one or two real solutions. It does not support imaginary solutions. The source is available at https://github.com/PatMurrayDEV/QuadraPy -- if you have any questions email me at feedback@patmurray.co\n"
+
+# Explain the equation
+eq = '\033[42;39m' + "a" + '\033[0m' + " + " + '\033[41;39m' + "b" + '\033[0m' + "x + " + '\033[46;39m' + "c" + '\033[0m' + "x^2"
+print "\nFollowing the format " + eq + ",\nEnter the co-efficients (watch for negatives):"
+
 
 # Get the co-efficients
-a = input("  a: ")
-b = input("  b: ")
-c = input("  c: ")
+a = input('\033[42;39m' + "  a" + '\033[0m' + ": ")
+b = input('\033[41;39m' + "  b" + '\033[0m' + ": ")
+c = input('\033[46;39m' + "  c" + '\033[0m' + ": ")
 
-# DO THE MATHS!
+
+##### DO THE MATHS!
 # To get the discriminate (b^2 - 4ac)
-desc = b**2-4*a*c
-print desc
+disc = (b**2)-(4*a*c)
+
 
 # Check the discriminate's value
-if desc < 0 :
+if disc < 0 :
     print "Sorry, no solution that is _real_ enough for my liking."
-elif desc == 0:
-    print "Hell yeah I got me 1 solution"
+elif disc == 0:
+    x = (-b + math.sqrt(disc))/(2*a)
+    print "One Solution x = ", x
 else:
-    print "WOOO two whole solutions!"
+    x1 = (-b + math.sqrt(disc))/(2*a)
+    x2 = (-b - math.sqrt(disc))/(2*a)
+    print "Two solutions x = ",  x1 ," & ", x2
+
+# END
