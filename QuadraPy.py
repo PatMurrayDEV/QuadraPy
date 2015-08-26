@@ -14,7 +14,7 @@ print ('\033[95m' + title.center(80, '#') + '\033[0m')
 print "\nThanks for using QuadraPy. QuadraPy is a simple Python based Quadratic equation solver. Pass it the three coefficients and it should spit out one or two real solutions. It does not support imaginary solutions. The source is available at https://github.com/PatMurrayDEV/QuadraPy -- if you have any questions email me at feedback@patmurray.co\n"
 
 # Explain the equation
-eq = '\033[42;39m' + "a" + '\033[0m' + " + " + '\033[41;39m' + "b" + '\033[0m' + "x + " + '\033[46;39m' + "c" + '\033[0m' + "x^2"
+eq = '\033[42;39m' + "a" + '\033[0m' + "x^2 + " + '\033[41;39m' + "b" + '\033[0m' + "x + " + '\033[46;39m' + "c" + '\033[0m' 
 print "\nFollowing the format " + eq + ",\nEnter the co-efficients (watch for negatives):"
 
 
