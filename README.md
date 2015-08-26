@@ -7,11 +7,11 @@ My first attempt at Python code.
 - [X] Get user input (25 Aug 2015)
 - [X] Calculate the discriminate (25 Aug 2015)
 - [X] Check for number of solutions (25 Aug 2015)
-- [ ] Calculate the possible solutions
-- [ ] Return result to user
+- [X] Calculate the possible solutions (26 Aug 2015)
+- [X] Return result to user (26 Aug 2015)
 - [ ] Loop
 - [ ] Fail gracefully
-  - [ ] Check for non-number input 
+  - [ ] Check for non-number input
   - [X] Check if no real solutions (25 Aug 2015)
 
 ## License
