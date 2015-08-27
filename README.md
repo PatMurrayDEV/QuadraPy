@@ -3,6 +3,8 @@ Implementation of the Quadratic formula in Python
 
 My first attempt at Python code.
 
+[![asciicast](https://asciinema.org/a/8rofeulh4qdrgh4d29seenf6t.png)](https://asciinema.org/a/8rofeulh4qdrgh4d29seenf6t)
+
 ## Todo
 - [X] Get user input (25 Aug 2015)
 - [X] Calculate the discriminate (25 Aug 2015)
